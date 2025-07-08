@@ -21,7 +21,8 @@
 
 ### Code example 
 ##### Example of solving a task from Codewars:
-```function narcissistic(value) {
+```
+function narcissistic(value) {
     const digits = String(value).split('');
     const len = digits.length;
     let sum = 0;
