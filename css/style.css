@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #eaeef1;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  background: #fff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.sidebar {
+  background-color: #C0DFE1;
+  padding: 20px;
+  width: 30%;
+  border-right: 2px solid #d9e3ec;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.position {
+  font-weight: bold;
+  color: #555;
+}
+
+.sidebar h2 {
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin: 10px 0;
+}
+
+.sidebar ul li {
+  margin: 8px 0;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.content {
+  padding: 20px;
+  width: 70%;
+}
+
+.content h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.content p,
+.content ul {
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.sidebar-names {
+  background-color: #47BCC2;
+  width: 90%;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+
+.sidebar-names h2 {
+  margin: 0;
+  line-height: 1;
+}
+
+pre {
+  background-color: #f8f8f8;
+  padding: 15px;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+}
+
+hr {
+  height: 3px;
+  background-color: #74AEB1;
+}
