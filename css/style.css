@@ -9,16 +9,25 @@ body {
   background-color: #eaeef1;
   color: #333;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  min-height: 100vh;
   padding: 20px;
 }
 
 .container {
   display: flex;
+  flex: 1;
   max-width: 1000px;
+  width: 100%;
   background: #fff;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
+  flex-direction: column;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
 }
 
 .sidebar {
@@ -106,4 +115,26 @@ pre {
 hr {
   height: 3px;
   background-color: #74AEB1;
+  border: none;
+}
+
+footer {
+  background-color: #97d9de;
+  padding: 15px 20px;
+  border-radius: 0 0 8px 8px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer img {
+  height: 30px;
 }
